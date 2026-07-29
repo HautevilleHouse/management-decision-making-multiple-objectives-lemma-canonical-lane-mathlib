@@ -1,0 +1,9 @@
+import management_decision_making_multiple_objectives_lemma_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace management_decision_making_multiple_objectives_lemma_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end management_decision_making_multiple_objectives_lemma_canonical_lane_mathlib
+end HautevilleHouse

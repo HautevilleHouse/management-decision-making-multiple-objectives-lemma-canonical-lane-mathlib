@@ -1,0 +1,13 @@
+import ManagementDecisionMakingMultipleObjectivesLemmaCanonicalLaneLean.MultipleObjectivesFinalTheorem
+
+namespace HautevilleHouse
+namespace ManagementDecisionMakingMultipleObjectivesLemmaCanonicalLaneLean
+
+structure MultipleObjectivesEndgameState where
+  object : MultipleObjectivesAdmittedObject
+
+def MultipleObjectivesWitnessClosed (O : MultipleObjectivesAdmittedObject) : Prop :=
+  O.conclusion
+
+end ManagementDecisionMakingMultipleObjectivesLemmaCanonicalLaneLean
+end HautevilleHouse
